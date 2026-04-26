@@ -7,7 +7,6 @@ This project automates uploading blog posts to Blogger using Python and Google B
 * Upload multiple blogs from JSON
 * Handles rate limits automatically
 * Uploads as drafts
-* Marathi blog content support
 
 ## Setup
 
@@ -26,12 +25,3 @@ pip install -r requirements.txt
 ```
 python upload.py
 ```
-
-## Note
-
-* Do NOT upload `credentials.json` or `token.json`
-* Blogs should be stored in `blogs.json`
-
-## Author
-
-Siddharth Jagtap
